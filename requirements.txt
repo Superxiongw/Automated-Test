@@ -1,0 +1,5 @@
+pytest
+pytest-html
+pytest-ordering
+pytest-rerunfailures
+allure-pytestpi

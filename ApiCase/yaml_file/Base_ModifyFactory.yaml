@@ -1,0 +1,19 @@
+-
+  url: https://mahtest.sendi.com/Base_Factory/ModifyFactory
+  method: post
+  parmams_type: json
+  data:
+    FactoryId: '1544271901776547840'
+    FactoryName: "杭州某某厂家0705"
+    FactoryNumber: "220620"
+    SocialCreditCode: "Sodium Chloride Injection"
+    Address: "浙江杭州"
+    LicenseNumber: "xkz20220620"
+    LicenseExpireTime: "2024-07-05"
+    LicenseFileList: [{ ResourceId: "1543884701717106688",FileName: "测试用图片.png" }]
+    DistributorIds: ["1540259818449801216"]
+    Remark: "test0705"
+    Identity: 1
+    LoginUserId: 1543185603062009856
+    LoginCompanyId: 1499568155075416064
+

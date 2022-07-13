@@ -1,0 +1,13 @@
+-
+  name: 获取人员信息列表
+  url: https://mahtest.sendi.com/System_User/GetUserList
+  method: post
+  parmams_type: json
+#  data:
+#    CompanyId: "",
+#    PageIndex: 0,
+#    PageSize: 10,
+#    SearchKey: "",
+#    Identity: 0, # 企业身份(0=管理员，1=持有人，2=受托方，3=双重身份)
+#    LoginUserId: !include ./extract.yml, # 登录用户id
+#    LoginCompanyId: !include ./extract.yml # 企业用户id

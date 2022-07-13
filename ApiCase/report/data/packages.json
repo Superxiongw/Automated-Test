@@ -1,0 +1,136 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ApiCase.testcases",
+    "children" : [ {
+      "name" : "test_Login",
+      "children" : [ {
+        "name" : "test_Login[udata0]",
+        "uid" : "56d57a1deac5a1a9",
+        "parentUid" : "16c6bf064d6749934c1b2e2ac8fb1f27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657011067673,
+          "stop" : 1657011068107,
+          "duration" : 434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 18,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '正常登录', 'url': 'https://mahtest.sendi.com/System_Guard/PasswordLogin', 'method': 'post', 'parmams_type': 'json', 'data': {'PhoneNumber': 17700003333, 'Password': 111111, 'LoginType': 0}, 'resp': {'code': 100, 'message': '登录成功'}}" ]
+      }, {
+        "name" : "test_userinfo[udata0]",
+        "uid" : "77dc1f38b0f3187c",
+        "parentUid" : "16c6bf064d6749934c1b2e2ac8fb1f27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657011068112,
+          "stop" : 1657011068146,
+          "duration" : 34
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 16,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '获取人员信息列表', 'url': 'https://mahtest.sendi.com/System_User/GetUserList', 'method': 'post', 'parmams_type': 'json'}" ]
+      } ],
+      "uid" : "16c6bf064d6749934c1b2e2ac8fb1f27"
+    }, {
+      "name" : "test_CreateFactory",
+      "children" : [ {
+        "name" : "查询物料生产商信息",
+        "uid" : "eba5e39c27f77d25",
+        "parentUid" : "82f838a5772273d0611b41aa65797cf9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1657182484653,
+          "stop" : 1657182485349,
+          "duration" : 696
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 16,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'url': 'https://mahtest.sendi.com/Base_Factory/GetFactoryList', 'method': 'post', 'parmams_type': 'json', 'data': {'CompanyId': 1499568155075416064, 'State': 99, 'PageIndex': 1, 'PageSize': 10, 'SearchKey': None, 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "创建物料生产商信息",
+        "uid" : "8f351e1c2276c09b",
+        "parentUid" : "82f838a5772273d0611b41aa65797cf9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1657182485364,
+          "stop" : 1657182485364,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 67,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '创建生产厂家', 'url': 'https://mahtest.sendi.com/Base_Factory/CreateFactory', 'method': 'post', 'parmams_type': 'json', 'data': {'FactoryName': '杭州某某厂家', 'FactoryNumber': '220620', 'SocialCreditCode': 'Sodium Chloride Injection', 'Address': '浙江杭州', 'LicenseNumber': 'xkz20220620', 'LicenseExpireTime': '2024-07-05', 'LicenseFileList': [{'ResourceId': '1543884701717106688', 'FileName': '测试用图片.png'}], 'DistributorIds': ['1540259818449801216'], 'Remark': 'test', 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "编辑物料生产商信息",
+        "uid" : "7d373dd197a89e61",
+        "parentUid" : "82f838a5772273d0611b41aa65797cf9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1657182485384,
+          "stop" : 1657182485384,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'url': 'https://mahtest.sendi.com/Base_Factory/ModifyFactory', 'method': 'post', 'parmams_type': 'json', 'data': {'FactoryId': '1544271901776547840', 'FactoryName': '杭州某某厂家0705', 'FactoryNumber': '220620', 'SocialCreditCode': 'Sodium Chloride Injection', 'Address': '浙江杭州', 'LicenseNumber': 'xkz20220620', 'LicenseExpireTime': '2024-07-05', 'LicenseFileList': [{'ResourceId': '1543884701717106688', 'FileName': '测试用图片.png'}], 'DistributorIds': ['1540259818449801216'], 'Remark': 'test0705', 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_ApplyFactory[udata0]",
+        "uid" : "45391a33480f49df",
+        "parentUid" : "82f838a5772273d0611b41aa65797cf9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1657182485387,
+          "stop" : 1657182485387,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'url': 'https://mahtest.sendi.com/Base_Factory/ApplyFactory', 'method': 'post', 'parmams_type': 'json', 'data': {'FactoryId': 1544271901776547840, 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_RatifyFactory[udata0]",
+        "uid" : "d5e7fcc3c4478435",
+        "parentUid" : "82f838a5772273d0611b41aa65797cf9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1657182485391,
+          "stop" : 1657182485391,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '审核物料生产商信息', 'url': 'https://mahtest.sendi.com/Base_Factory/RatifyFactory', 'method': 'post', 'parmams_type': 'json', 'data': {'FactoryId': 1544271901776547840, 'Passed': False, 'RatifyReason': '物料生产商审批不通过', 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      } ],
+      "uid" : "82f838a5772273d0611b41aa65797cf9"
+    } ],
+    "uid" : "ApiCase.testcases"
+  } ]
+}

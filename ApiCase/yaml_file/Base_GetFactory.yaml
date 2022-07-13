@@ -1,0 +1,13 @@
+-
+  url: https://mahtest.sendi.com/Base_Factory/GetFactoryList
+  method: post
+  parmams_type: json
+  data:
+    CompanyId: 1499568155075416064
+    State: 99
+    PageIndex: 1
+    PageSize: 10
+    SearchKey:
+    Identity: 1
+    LoginUserId: 1543185603062009856
+    LoginCompanyId: 1499568155075416064

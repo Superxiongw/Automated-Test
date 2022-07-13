@@ -1,0 +1,9 @@
+-
+  url: https://mahtest.sendi.com/Base_Factory/ApplyFactory
+  method: post
+  parmams_type: json
+  data:
+    FactoryId: 1544271901776547840
+    Identity: 1
+    LoginUserId: 1543185603062009856
+    LoginCompanyId: 1499568155075416064

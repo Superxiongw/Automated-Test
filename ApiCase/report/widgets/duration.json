@@ -1,0 +1,71 @@
+[ {
+  "uid" : "45391a33480f49df",
+  "name" : "test_ApplyFactory[udata0]",
+  "time" : {
+    "start" : 1657182485387,
+    "stop" : 1657182485387,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "eba5e39c27f77d25",
+  "name" : "查询物料生产商信息",
+  "time" : {
+    "start" : 1657182484653,
+    "stop" : 1657182485349,
+    "duration" : 696
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f351e1c2276c09b",
+  "name" : "创建物料生产商信息",
+  "time" : {
+    "start" : 1657182485364,
+    "stop" : 1657182485364,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "7d373dd197a89e61",
+  "name" : "编辑物料生产商信息",
+  "time" : {
+    "start" : 1657182485384,
+    "stop" : 1657182485384,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "77dc1f38b0f3187c",
+  "name" : "test_userinfo[udata0]",
+  "time" : {
+    "start" : 1657011068112,
+    "stop" : 1657011068146,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5e7fcc3c4478435",
+  "name" : "test_RatifyFactory[udata0]",
+  "time" : {
+    "start" : 1657182485391,
+    "stop" : 1657182485391,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "56d57a1deac5a1a9",
+  "name" : "test_Login[udata0]",
+  "time" : {
+    "start" : 1657011067673,
+    "stop" : 1657011068107,
+    "duration" : 434
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

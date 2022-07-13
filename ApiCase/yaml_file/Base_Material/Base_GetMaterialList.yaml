@@ -1,0 +1,14 @@
+# 获取原辅包信息列表
+-
+  url: https://mahtest.sendi.com/Base_Material/GetMaterialList
+  method: post
+  parmams_type: json
+  data:
+    CompanyId: 1499568155075416064
+    PageIndex: 1
+    PageSize: 10
+    SearchKey:
+    Identity: 1
+    LoginUserId: 1543185603062009856
+    LoginCompanyId: 1499568155075416064
+
