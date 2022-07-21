@@ -20,6 +20,7 @@ class TestCase:
 
 
     # 登录MAH系统
+    @pytest.mark.run(order=1)
     @pytest.mark.parametrize('udata',read_yaml('/user_login.yaml'))
     def test_Login(self,udata):
         url = udata['url']
@@ -39,6 +40,8 @@ class TestCase:
         YamlUtil().write_extract_yaml({'Token':res.json()['Body']['Token']})
         YamlUtil().write_extract_yaml({'UserId': res.json()['Body']['UserId']})
         YamlUtil().write_extract_yaml({'CompanyId': res.json()['Body']['CompanyId']})
+
+    @pytest.mark.run(order=2)
     @pytest.mark.parametrize('udata',read_yaml('/user_info.yaml'))
     def test_userinfo(self,udata):
         Token = YamlUtil().read_extract_yaml('Token')

@@ -1,1 +1,23 @@
 # 修改原辅包信息
+-
+  url: https://mahtest.sendi.com/Base_Material/ModifyMaterial
+  method: post
+  parmams_type: json
+  data:
+    MaterialId: 1547127246433685504
+    MaterialType: 3
+    MaterialName: 原辅（内包材）-副本
+    MaterialNumber: F-20220713
+    MaterialDesc: 原辅料内包材（描述字段）
+    MaterialSpec: 3.6kg/袋*10箱
+    CalculateUnit: kg
+    FactoryId: 1540262073731256320
+    DistributorIds: ["1540259818449801216"]
+    QualityStandard: 药典2022
+    Period: 3
+    PeriodUnit: 2
+    StorageConditions: 1499577307499728896
+    Remark: Test20220713（备注）
+    Identity: 1
+    LoginUserId: 1543185603062009856
+    LoginCompanyId: 1499568155075416064

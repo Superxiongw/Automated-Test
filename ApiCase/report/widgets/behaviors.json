@@ -1,6 +1,17 @@
 {
-  "total" : 3,
+  "total" : 18,
   "items" : [ {
+    "uid" : "696e0438d01251d69180fa3180c47ac4",
+    "name" : "Mah系统-物料信息管理模块",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
     "uid" : "8ba46c625f27a7d6efeaa15f099857ab",
     "name" : "MAH接口测试",
     "statistic" : {

@@ -7,7 +7,7 @@
       "name" : "test_Login",
       "children" : [ {
         "name" : "test_Login[udata0]",
-        "uid" : "56d57a1deac5a1a9",
+        "uid" : "8ac2446a00e986ff",
         "parentUid" : "16c6bf064d6749934c1b2e2ac8fb1f27",
         "status" : "passed",
         "time" : {
@@ -24,7 +24,7 @@
         "parameters" : [ "{'name': '正常登录', 'url': 'https://mahtest.sendi.com/System_Guard/PasswordLogin', 'method': 'post', 'parmams_type': 'json', 'data': {'PhoneNumber': 17700003333, 'Password': 111111, 'LoginType': 0}, 'resp': {'code': 100, 'message': '登录成功'}}" ]
       }, {
         "name" : "test_userinfo[udata0]",
-        "uid" : "77dc1f38b0f3187c",
+        "uid" : "ad1136a4f0990d38",
         "parentUid" : "16c6bf064d6749934c1b2e2ac8fb1f27",
         "status" : "passed",
         "time" : {
@@ -45,7 +45,7 @@
       "name" : "test_CreateFactory",
       "children" : [ {
         "name" : "查询物料生产商信息",
-        "uid" : "eba5e39c27f77d25",
+        "uid" : "48861f2c341e7f34",
         "parentUid" : "82f838a5772273d0611b41aa65797cf9",
         "status" : "passed",
         "time" : {
@@ -62,7 +62,7 @@
         "parameters" : [ "{'url': 'https://mahtest.sendi.com/Base_Factory/GetFactoryList', 'method': 'post', 'parmams_type': 'json', 'data': {'CompanyId': 1499568155075416064, 'State': 99, 'PageIndex': 1, 'PageSize': 10, 'SearchKey': None, 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
       }, {
         "name" : "创建物料生产商信息",
-        "uid" : "8f351e1c2276c09b",
+        "uid" : "fe3b5ba4b762c005",
         "parentUid" : "82f838a5772273d0611b41aa65797cf9",
         "status" : "skipped",
         "time" : {
@@ -79,7 +79,7 @@
         "parameters" : [ "{'name': '创建生产厂家', 'url': 'https://mahtest.sendi.com/Base_Factory/CreateFactory', 'method': 'post', 'parmams_type': 'json', 'data': {'FactoryName': '杭州某某厂家', 'FactoryNumber': '220620', 'SocialCreditCode': 'Sodium Chloride Injection', 'Address': '浙江杭州', 'LicenseNumber': 'xkz20220620', 'LicenseExpireTime': '2024-07-05', 'LicenseFileList': [{'ResourceId': '1543884701717106688', 'FileName': '测试用图片.png'}], 'DistributorIds': ['1540259818449801216'], 'Remark': 'test', 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
       }, {
         "name" : "编辑物料生产商信息",
-        "uid" : "7d373dd197a89e61",
+        "uid" : "b7074d8ad86ffe2e",
         "parentUid" : "82f838a5772273d0611b41aa65797cf9",
         "status" : "skipped",
         "time" : {
@@ -96,7 +96,7 @@
         "parameters" : [ "{'url': 'https://mahtest.sendi.com/Base_Factory/ModifyFactory', 'method': 'post', 'parmams_type': 'json', 'data': {'FactoryId': '1544271901776547840', 'FactoryName': '杭州某某厂家0705', 'FactoryNumber': '220620', 'SocialCreditCode': 'Sodium Chloride Injection', 'Address': '浙江杭州', 'LicenseNumber': 'xkz20220620', 'LicenseExpireTime': '2024-07-05', 'LicenseFileList': [{'ResourceId': '1543884701717106688', 'FileName': '测试用图片.png'}], 'DistributorIds': ['1540259818449801216'], 'Remark': 'test0705', 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
       }, {
         "name" : "test_ApplyFactory[udata0]",
-        "uid" : "45391a33480f49df",
+        "uid" : "e1ee7f2791df7e1d",
         "parentUid" : "82f838a5772273d0611b41aa65797cf9",
         "status" : "skipped",
         "time" : {
@@ -113,7 +113,7 @@
         "parameters" : [ "{'url': 'https://mahtest.sendi.com/Base_Factory/ApplyFactory', 'method': 'post', 'parmams_type': 'json', 'data': {'FactoryId': 1544271901776547840, 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
       }, {
         "name" : "test_RatifyFactory[udata0]",
-        "uid" : "d5e7fcc3c4478435",
+        "uid" : "9845751d11f8098a",
         "parentUid" : "82f838a5772273d0611b41aa65797cf9",
         "status" : "skipped",
         "time" : {
@@ -130,6 +130,303 @@
         "parameters" : [ "{'name': '审核物料生产商信息', 'url': 'https://mahtest.sendi.com/Base_Factory/RatifyFactory', 'method': 'post', 'parmams_type': 'json', 'data': {'FactoryId': 1544271901776547840, 'Passed': False, 'RatifyReason': '物料生产商审批不通过', 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
       } ],
       "uid" : "82f838a5772273d0611b41aa65797cf9"
+    }, {
+      "name" : "test_BaseMaterial",
+      "children" : [ {
+        "name" : "test_GetMaterialList[udata0]",
+        "uid" : "8b6c73017c21ffd",
+        "parentUid" : "42eaa754ee56d79eed4186789f110f2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658124716466,
+          "stop" : 1658124716989,
+          "duration" : 523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 11,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'https://mahtest.sendi.com/Base_Material/GetMaterialList', 'method': 'post', 'parmams_type': 'json', 'data': {'CompanyId': 1499568155075416064, 'PageIndex': 1, 'PageSize': 10, 'SearchKey': None, 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_CreateMaterial[udata0]",
+        "uid" : "a6ff4c8554a62679",
+        "parentUid" : "42eaa754ee56d79eed4186789f110f2f",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1658124716989,
+          "stop" : 1658124716989,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 10,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'url': 'https://mahtest.sendi.com/Base_Material/CreateMaterial', 'method': 'post', 'parmams_type': 'json', 'data': {'MaterialType': 3, 'MaterialName': '原辅（内包材）', 'MaterialNumber': 'F-20220713', 'MaterialDesc': '原辅料内包材（描述字段）', 'MaterialSpec': '3.6kg/袋*10箱', 'CalculateUnit': 'kg', 'FactoryId': 1544271901776547840, 'DistributorIds': ['1540260241571188736'], 'QualityStandard': '药典2022', 'Period': 3, 'PeriodUnit': 2, 'StorageConditions': 1499577307499728896, 'Remark': 'Test20220713（备注）', 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_ModifyMaterial[udata0]",
+        "uid" : "de21d784462c6f1c",
+        "parentUid" : "42eaa754ee56d79eed4186789f110f2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658124716999,
+          "stop" : 1658124717614,
+          "duration" : 615
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'https://mahtest.sendi.com/Base_Material/ModifyMaterial', 'method': 'post', 'parmams_type': 'json', 'data': {'MaterialId': 1547127246433685504, 'MaterialType': 3, 'MaterialName': '原辅（内包材）-副本', 'MaterialNumber': 'F-20220713', 'MaterialDesc': '原辅料内包材（描述字段）', 'MaterialSpec': '3.6kg/袋*10箱', 'CalculateUnit': 'kg', 'FactoryId': 1540262073731256320, 'DistributorIds': ['1540259818449801216'], 'QualityStandard': '药典2022', 'Period': 3, 'PeriodUnit': 2, 'StorageConditions': 1499577307499728896, 'Remark': 'Test20220713（备注）', 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      } ],
+      "uid" : "42eaa754ee56d79eed4186789f110f2f"
+    }, {
+      "name" : "test_SystemCompany",
+      "children" : [ {
+        "name" : "test_ConfirmAgreement",
+        "uid" : "da430652c0740b22",
+        "parentUid" : "90b0141dc478e8cc40d2d1913ec0121d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658222204659,
+          "stop" : 1658222204659,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_CreateAgreement[udata0]",
+        "uid" : "a9feb41c3ae72941",
+        "parentUid" : "90b0141dc478e8cc40d2d1913ec0121d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658285428694,
+          "stop" : 1658285429306,
+          "duration" : 612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '产品id为空', 'url': 'https://mahtest.sendi.com/System_Company/CreateAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'ProductId': None, 'TrusteeId': 1499568389096607744, 'AgreementNumber': 'xy220719', 'EffectTime': '2022-07-19', 'ExpireTime': '2022-07-20', 'Remark': 'Test20220719', 'AgreementFileList': [{'ResourceId': '1549313299668144128', 'FileName': '委托协议文件Test.docx'}], 'QualityFileList': [{'ResourceId': '1549313339488866304', 'FileName': '质量协议文件Test.docx'}], 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_CreateAgreement[udata1]",
+        "uid" : "e7fe06e82d118685",
+        "parentUid" : "90b0141dc478e8cc40d2d1913ec0121d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658285429489,
+          "stop" : 1658285429795,
+          "duration" : 306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '受托企业id为空', 'url': 'https://mahtest.sendi.com/System_Company/CreateAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'ProductId': 1540267987485986816, 'TrusteeId': None, 'AgreementNumber': 'xy220719', 'EffectTime': '2022-07-19', 'ExpireTime': '2022-07-20', 'Remark': 'Test20220719', 'AgreementFileList': [{'ResourceId': '1549313299668144128', 'FileName': '委托协议文件Test.docx'}], 'QualityFileList': [{'ResourceId': '1549313339488866304', 'FileName': '质量协议文件Test.docx'}], 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_CreateAgreement[udata2]",
+        "uid" : "da007a70dc4db2b4",
+        "parentUid" : "90b0141dc478e8cc40d2d1913ec0121d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658285429833,
+          "stop" : 1658285430199,
+          "duration" : 366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '协议编号为空', 'url': 'https://mahtest.sendi.com/System_Company/CreateAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'ProductId': 1540267987485986816, 'TrusteeId': 1499568389096607744, 'AgreementNumber': None, 'EffectTime': '2022-07-19', 'ExpireTime': '2022-07-20', 'Remark': 'Test20220719', 'AgreementFileList': [{'ResourceId': '1549313299668144128', 'FileName': '委托协议文件Test.docx'}], 'QualityFileList': [{'ResourceId': '1549313339488866304', 'FileName': '质量协议文件Test.docx'}], 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_CreateAgreement[udata3]",
+        "uid" : "59ed5acddb5b42c3",
+        "parentUid" : "90b0141dc478e8cc40d2d1913ec0121d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658285430219,
+          "stop" : 1658285430537,
+          "duration" : 318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '生效日期为空', 'url': 'https://mahtest.sendi.com/System_Company/CreateAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'ProductId': 1540267987485986816, 'TrusteeId': 1499568389096607744, 'AgreementNumber': 'xy220719', 'EffectTime': '', 'ExpireTime': '2022-07-20', 'Remark': 'Test20220719', 'AgreementFileList': [{'ResourceId': '1549313299668144128', 'FileName': '委托协议文件Test.docx'}], 'QualityFileList': [{'ResourceId': '1549313339488866304', 'FileName': '质量协议文件Test.docx'}], 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_CreateAgreement[udata4]",
+        "uid" : "28e45b4acebc8efc",
+        "parentUid" : "90b0141dc478e8cc40d2d1913ec0121d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658285430563,
+          "stop" : 1658285430900,
+          "duration" : 337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '失效日期为空', 'url': 'https://mahtest.sendi.com/System_Company/CreateAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'ProductId': 1540267987485986816, 'TrusteeId': 1499568389096607744, 'AgreementNumber': 'xy220719', 'EffectTime': '2022-07-19', 'ExpireTime': '', 'Remark': 'Test20220719', 'AgreementFileList': [{'ResourceId': '1549313299668144128', 'FileName': '委托协议文件Test.docx'}], 'QualityFileList': [{'ResourceId': '1549313339488866304', 'FileName': '质量协议文件Test.docx'}], 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_CreateAgreement[udata5]",
+        "uid" : "6438161748d1ecdf",
+        "parentUid" : "90b0141dc478e8cc40d2d1913ec0121d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658285430932,
+          "stop" : 1658285431818,
+          "duration" : 886
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '委托协议文件不得为空', 'url': 'https://mahtest.sendi.com/System_Company/CreateAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'ProductId': 1540267987485986816, 'TrusteeId': 1499568389096607744, 'AgreementNumber': 'xy220719', 'EffectTime': '2022-07-19', 'ExpireTime': '2022-07-20', 'Remark': 'Test20220719', 'AgreementFileList': None, 'QualityFileList': [{'ResourceId': '1549313339488866304', 'FileName': '质量协议文件Test.docx'}], 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_CreateAgreement[udata6]",
+        "uid" : "d2d87def994af09",
+        "parentUid" : "90b0141dc478e8cc40d2d1913ec0121d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658285431850,
+          "stop" : 1658285432184,
+          "duration" : 334
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '质量协议文件不得为空', 'url': 'https://mahtest.sendi.com/System_Company/CreateAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'ProductId': 1540267987485986816, 'TrusteeId': 1499568389096607744, 'AgreementNumber': 'xy220719', 'EffectTime': '2022-07-19', 'ExpireTime': '2022-07-20', 'Remark': 'Test20220719', 'AgreementFileList': [{'ResourceId': '1549313299668144128', 'FileName': '委托协议文件Test.docx'}], 'QualityFileList': None, 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_CreateAgreement[udata7]",
+        "uid" : "6e94b3a4edfb0fee",
+        "parentUid" : "90b0141dc478e8cc40d2d1913ec0121d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658285432199,
+          "stop" : 1658285432518,
+          "duration" : 319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '正常', 'url': 'https://mahtest.sendi.com/System_Company/CreateAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'ProductId': 1540267987485986816, 'TrusteeId': 1499568389096607744, 'AgreementNumber': 'xy220719', 'EffectTime': '2022-07-19', 'ExpireTime': '2022-07-20', 'Remark': 'Test20220719', 'AgreementFileList': [{'ResourceId': '1549313299668144128', 'FileName': '委托协议文件Test.docx'}], 'QualityFileList': [{'ResourceId': '1549313339488866304', 'FileName': '质量协议文件Test.docx'}], 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_GetAgreementList[udata0]",
+        "uid" : "600b1453d75d5c1",
+        "parentUid" : "90b0141dc478e8cc40d2d1913ec0121d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1658285432525,
+          "stop" : 1658285432525,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'url': 'https://mahtest.sendi.com/System_Company/GetAgreementList', 'method': 'post', 'parmams_type': 'json', 'data': {'CompanyId': 1499568155075416064, 'Identity': 1, 'LoginCompanyId': 1499568155075416064, 'LoginUserId': 1543185603062009856, 'PageIndex': 1, 'PageSize': 10, 'SearchKey': None}}" ]
+      }, {
+        "name" : "test_ConfirmAgreement[udata0]",
+        "uid" : "8ee2d17ebd68140b",
+        "parentUid" : "90b0141dc478e8cc40d2d1913ec0121d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1658285432530,
+          "stop" : 1658285432530,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'url': 'https://mahtest.sendi.com/System_Company/ConfirmAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'AgreementId': 1549322331720126464, 'IsPassed': False, 'Opinion': '重新确认', 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_ModifyAgreement",
+        "uid" : "fc0896425649f321",
+        "parentUid" : "90b0141dc478e8cc40d2d1913ec0121d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658285432536,
+          "stop" : 1658285432536,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_StopAgreement",
+        "uid" : "74c3b1c97c905466",
+        "parentUid" : "90b0141dc478e8cc40d2d1913ec0121d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658285432540,
+          "stop" : 1658285432541,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_RepairAgreement",
+        "uid" : "d47530b5d75b24e",
+        "parentUid" : "90b0141dc478e8cc40d2d1913ec0121d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658285432547,
+          "stop" : 1658285432547,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "90b0141dc478e8cc40d2d1913ec0121d"
     } ],
     "uid" : "ApiCase.testcases"
   } ]

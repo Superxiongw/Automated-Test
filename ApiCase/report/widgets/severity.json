@@ -1,55 +1,5 @@
 [ {
-  "uid" : "77dc1f38b0f3187c",
-  "name" : "test_userinfo[udata0]",
-  "time" : {
-    "start" : 1657011068112,
-    "stop" : 1657011068146,
-    "duration" : 34
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7d373dd197a89e61",
-  "name" : "编辑物料生产商信息",
-  "time" : {
-    "start" : 1657182485384,
-    "stop" : 1657182485384,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "45391a33480f49df",
-  "name" : "test_ApplyFactory[udata0]",
-  "time" : {
-    "start" : 1657182485387,
-    "stop" : 1657182485387,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "56d57a1deac5a1a9",
-  "name" : "test_Login[udata0]",
-  "time" : {
-    "start" : 1657011067673,
-    "stop" : 1657011068107,
-    "duration" : 434
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d5e7fcc3c4478435",
-  "name" : "test_RatifyFactory[udata0]",
-  "time" : {
-    "start" : 1657182485391,
-    "stop" : 1657182485391,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "eba5e39c27f77d25",
+  "uid" : "48861f2c341e7f34",
   "name" : "查询物料生产商信息",
   "time" : {
     "start" : 1657182484653,
@@ -59,7 +9,27 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8f351e1c2276c09b",
+  "uid" : "d2d87def994af09",
+  "name" : "test_CreateAgreement[udata6]",
+  "time" : {
+    "start" : 1658285431850,
+    "stop" : 1658285432184,
+    "duration" : 334
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e94b3a4edfb0fee",
+  "name" : "test_CreateAgreement[udata7]",
+  "time" : {
+    "start" : 1658285432199,
+    "stop" : 1658285432518,
+    "duration" : 319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe3b5ba4b762c005",
   "name" : "创建物料生产商信息",
   "time" : {
     "start" : 1657182485364,
@@ -68,4 +38,204 @@
   },
   "status" : "skipped",
   "severity" : "critical"
+}, {
+  "uid" : "600b1453d75d5c1",
+  "name" : "test_GetAgreementList[udata0]",
+  "time" : {
+    "start" : 1658285432525,
+    "stop" : 1658285432525,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d47530b5d75b24e",
+  "name" : "test_RepairAgreement",
+  "time" : {
+    "start" : 1658285432547,
+    "stop" : 1658285432547,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad1136a4f0990d38",
+  "name" : "test_userinfo[udata0]",
+  "time" : {
+    "start" : 1657011068112,
+    "stop" : 1657011068146,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74c3b1c97c905466",
+  "name" : "test_StopAgreement",
+  "time" : {
+    "start" : 1658285432540,
+    "stop" : 1658285432541,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6ff4c8554a62679",
+  "name" : "test_CreateMaterial[udata0]",
+  "time" : {
+    "start" : 1658124716989,
+    "stop" : 1658124716989,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "fc0896425649f321",
+  "name" : "test_ModifyAgreement",
+  "time" : {
+    "start" : 1658285432536,
+    "stop" : 1658285432536,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da007a70dc4db2b4",
+  "name" : "test_CreateAgreement[udata2]",
+  "time" : {
+    "start" : 1658285429833,
+    "stop" : 1658285430199,
+    "duration" : 366
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9845751d11f8098a",
+  "name" : "test_RatifyFactory[udata0]",
+  "time" : {
+    "start" : 1657182485391,
+    "stop" : 1657182485391,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a9feb41c3ae72941",
+  "name" : "test_CreateAgreement[udata0]",
+  "time" : {
+    "start" : 1658285428694,
+    "stop" : 1658285429306,
+    "duration" : 612
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ac2446a00e986ff",
+  "name" : "test_Login[udata0]",
+  "time" : {
+    "start" : 1657011067673,
+    "stop" : 1657011068107,
+    "duration" : 434
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1ee7f2791df7e1d",
+  "name" : "test_ApplyFactory[udata0]",
+  "time" : {
+    "start" : 1657182485387,
+    "stop" : 1657182485387,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b7074d8ad86ffe2e",
+  "name" : "编辑物料生产商信息",
+  "time" : {
+    "start" : 1657182485384,
+    "stop" : 1657182485384,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e7fe06e82d118685",
+  "name" : "test_CreateAgreement[udata1]",
+  "time" : {
+    "start" : 1658285429489,
+    "stop" : 1658285429795,
+    "duration" : 306
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "59ed5acddb5b42c3",
+  "name" : "test_CreateAgreement[udata3]",
+  "time" : {
+    "start" : 1658285430219,
+    "stop" : 1658285430537,
+    "duration" : 318
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "de21d784462c6f1c",
+  "name" : "test_ModifyMaterial[udata0]",
+  "time" : {
+    "start" : 1658124716999,
+    "stop" : 1658124717614,
+    "duration" : 615
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da430652c0740b22",
+  "name" : "test_ConfirmAgreement",
+  "time" : {
+    "start" : 1658222204659,
+    "stop" : 1658222204659,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6438161748d1ecdf",
+  "name" : "test_CreateAgreement[udata5]",
+  "time" : {
+    "start" : 1658285430932,
+    "stop" : 1658285431818,
+    "duration" : 886
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b6c73017c21ffd",
+  "name" : "test_GetMaterialList[udata0]",
+  "time" : {
+    "start" : 1658124716466,
+    "stop" : 1658124716989,
+    "duration" : 523
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28e45b4acebc8efc",
+  "name" : "test_CreateAgreement[udata4]",
+  "time" : {
+    "start" : 1658285430563,
+    "stop" : 1658285430900,
+    "duration" : 337
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ee2d17ebd68140b",
+  "name" : "test_ConfirmAgreement[udata0]",
+  "time" : {
+    "start" : 1658285432530,
+    "stop" : 1658285432530,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
 } ]

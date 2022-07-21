@@ -1,5 +1,136 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '参数错误' == '成功'\n  - 成功\n  + 参数错误",
+      "children" : [ {
+        "name" : "test_CreateAgreement[udata0]",
+        "uid" : "a9feb41c3ae72941",
+        "parentUid" : "5854ef5290e214a3be76a2868b3c42bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658285428694,
+          "stop" : 1658285429306,
+          "duration" : 612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "{'name': '产品id为空', 'url': 'https://mahtest.sendi.com/System_Company/CreateAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'ProductId': None, 'TrusteeId': 1499568389096607744, 'AgreementNumber': 'xy220719', 'EffectTime': '2022-07-19', 'ExpireTime': '2022-07-20', 'Remark': 'Test20220719', 'AgreementFileList': [{'ResourceId': '1549313299668144128', 'FileName': '委托协议文件Test.docx'}], 'QualityFileList': [{'ResourceId': '1549313339488866304', 'FileName': '质量协议文件Test.docx'}], 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_CreateAgreement[udata1]",
+        "uid" : "e7fe06e82d118685",
+        "parentUid" : "5854ef5290e214a3be76a2868b3c42bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658285429489,
+          "stop" : 1658285429795,
+          "duration" : 306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '受托企业id为空', 'url': 'https://mahtest.sendi.com/System_Company/CreateAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'ProductId': 1540267987485986816, 'TrusteeId': None, 'AgreementNumber': 'xy220719', 'EffectTime': '2022-07-19', 'ExpireTime': '2022-07-20', 'Remark': 'Test20220719', 'AgreementFileList': [{'ResourceId': '1549313299668144128', 'FileName': '委托协议文件Test.docx'}], 'QualityFileList': [{'ResourceId': '1549313339488866304', 'FileName': '质量协议文件Test.docx'}], 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_CreateAgreement[udata2]",
+        "uid" : "da007a70dc4db2b4",
+        "parentUid" : "5854ef5290e214a3be76a2868b3c42bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658285429833,
+          "stop" : 1658285430199,
+          "duration" : 366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '协议编号为空', 'url': 'https://mahtest.sendi.com/System_Company/CreateAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'ProductId': 1540267987485986816, 'TrusteeId': 1499568389096607744, 'AgreementNumber': None, 'EffectTime': '2022-07-19', 'ExpireTime': '2022-07-20', 'Remark': 'Test20220719', 'AgreementFileList': [{'ResourceId': '1549313299668144128', 'FileName': '委托协议文件Test.docx'}], 'QualityFileList': [{'ResourceId': '1549313339488866304', 'FileName': '质量协议文件Test.docx'}], 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_CreateAgreement[udata3]",
+        "uid" : "59ed5acddb5b42c3",
+        "parentUid" : "5854ef5290e214a3be76a2868b3c42bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658285430219,
+          "stop" : 1658285430537,
+          "duration" : 318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '生效日期为空', 'url': 'https://mahtest.sendi.com/System_Company/CreateAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'ProductId': 1540267987485986816, 'TrusteeId': 1499568389096607744, 'AgreementNumber': 'xy220719', 'EffectTime': '', 'ExpireTime': '2022-07-20', 'Remark': 'Test20220719', 'AgreementFileList': [{'ResourceId': '1549313299668144128', 'FileName': '委托协议文件Test.docx'}], 'QualityFileList': [{'ResourceId': '1549313339488866304', 'FileName': '质量协议文件Test.docx'}], 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_CreateAgreement[udata4]",
+        "uid" : "28e45b4acebc8efc",
+        "parentUid" : "5854ef5290e214a3be76a2868b3c42bf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658285430563,
+          "stop" : 1658285430900,
+          "duration" : 337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '失效日期为空', 'url': 'https://mahtest.sendi.com/System_Company/CreateAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'ProductId': 1540267987485986816, 'TrusteeId': 1499568389096607744, 'AgreementNumber': 'xy220719', 'EffectTime': '2022-07-19', 'ExpireTime': '', 'Remark': 'Test20220719', 'AgreementFileList': [{'ResourceId': '1549313299668144128', 'FileName': '委托协议文件Test.docx'}], 'QualityFileList': [{'ResourceId': '1549313339488866304', 'FileName': '质量协议文件Test.docx'}], 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      } ],
+      "uid" : "5854ef5290e214a3be76a2868b3c42bf"
+    }, {
+      "name" : "AssertionError: assert '接口异常' == '成功'\n  - 成功\n  + 接口异常",
+      "children" : [ {
+        "name" : "test_CreateAgreement[udata5]",
+        "uid" : "6438161748d1ecdf",
+        "parentUid" : "2e67d7b32ef5276a167f6456089fcc5c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658285430932,
+          "stop" : 1658285431818,
+          "duration" : 886
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '委托协议文件不得为空', 'url': 'https://mahtest.sendi.com/System_Company/CreateAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'ProductId': 1540267987485986816, 'TrusteeId': 1499568389096607744, 'AgreementNumber': 'xy220719', 'EffectTime': '2022-07-19', 'ExpireTime': '2022-07-20', 'Remark': 'Test20220719', 'AgreementFileList': None, 'QualityFileList': [{'ResourceId': '1549313339488866304', 'FileName': '质量协议文件Test.docx'}], 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      }, {
+        "name" : "test_CreateAgreement[udata6]",
+        "uid" : "d2d87def994af09",
+        "parentUid" : "2e67d7b32ef5276a167f6456089fcc5c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658285431850,
+          "stop" : 1658285432184,
+          "duration" : 334
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '质量协议文件不得为空', 'url': 'https://mahtest.sendi.com/System_Company/CreateAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'ProductId': 1540267987485986816, 'TrusteeId': 1499568389096607744, 'AgreementNumber': 'xy220719', 'EffectTime': '2022-07-19', 'ExpireTime': '2022-07-20', 'Remark': 'Test20220719', 'AgreementFileList': [{'ResourceId': '1549313299668144128', 'FileName': '委托协议文件Test.docx'}], 'QualityFileList': None, 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+      } ],
+      "uid" : "2e67d7b32ef5276a167f6456089fcc5c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }
