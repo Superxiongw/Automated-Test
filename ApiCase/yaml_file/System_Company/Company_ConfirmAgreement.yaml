@@ -4,9 +4,9 @@
   method: post
   parmams_type: json
   data:
-    AgreementId: 1549322331720126464 # 协议id
+    AgreementId: "1549578221530517504" # 协议id
     IsPassed: false
     Opinion: 重新确认
-    Identity: 1
-    LoginUserId: 1543185603062009856
-    LoginCompanyId: 1499568155075416064
+    Identity: 2
+    LoginUserId: "1540279897740677120"
+    LoginCompanyId: "1499568389096607744"

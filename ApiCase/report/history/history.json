@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8b6c73017c21ffd",
+      "uid" : "cbdd832269787cef",
       "status" : "passed",
       "time" : {
         "start" : 1658124716466,
@@ -18,82 +18,83 @@
       }
     } ]
   },
-  "1bbf18aad288716f45eaed171cb0a0b2" : {
+  "2a040ea204e5d5250b13093eccc1d515" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6438161748d1ecdf",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert '接口异常' == '成功'\n  - 成功\n  + 接口异常",
+      "uid" : "7154790c407a183d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
       "time" : {
-        "start" : 1658285430932,
-        "stop" : 1658285431818,
-        "duration" : 886
+        "start" : 1658387168454,
+        "stop" : 1658387168454,
+        "duration" : 0
       }
     } ]
   },
-  "2a040ea204e5d5250b13093eccc1d515" : {
+  "1bbf18aad288716f45eaed171cb0a0b2" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6e94b3a4edfb0fee",
-      "status" : "passed",
+      "uid" : "cc2ee83e05f73a68",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
       "time" : {
-        "start" : 1658285432199,
-        "stop" : 1658285432518,
-        "duration" : 319
+        "start" : 1658387168443,
+        "stop" : 1658387168443,
+        "duration" : 0
       }
     } ]
   },
   "517dabb3b78cafd0c96514cf520c9d4d" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d2d87def994af09",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert '接口异常' == '成功'\n  - 成功\n  + 接口异常",
+      "uid" : "3809fd189520850",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
       "time" : {
-        "start" : 1658285431850,
-        "stop" : 1658285432184,
-        "duration" : 334
+        "start" : 1658387168450,
+        "stop" : 1658387168450,
+        "duration" : 0
       }
     } ]
   },
   "38453631b32509185475352e6874090e" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "da007a70dc4db2b4",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert '参数错误' == '成功'\n  - 成功\n  + 参数错误",
+      "uid" : "8614fb1ca8b698e1",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
       "time" : {
-        "start" : 1658285429833,
-        "stop" : 1658285430199,
-        "duration" : 366
+        "start" : 1658387168409,
+        "stop" : 1658387168409,
+        "duration" : 0
       }
     } ]
   },
@@ -107,7 +108,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a6ff4c8554a62679",
+      "uid" : "55969dd19843805a",
       "status" : "skipped",
       "statusDetails" : "Skipped: 跳过创建原辅料",
       "time" : {
@@ -127,12 +128,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "74c3b1c97c905466",
+      "uid" : "a900a48970c2d35a",
       "status" : "passed",
       "time" : {
-        "start" : 1658285432540,
-        "stop" : 1658285432541,
-        "duration" : 1
+        "start" : 1658387169194,
+        "stop" : 1658387169194,
+        "duration" : 0
       }
     } ]
   },
@@ -146,7 +147,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "de21d784462c6f1c",
+      "uid" : "6c87974bff1f315b",
       "status" : "passed",
       "time" : {
         "start" : 1658124716999,
@@ -165,52 +166,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ad1136a4f0990d38",
+      "uid" : "55ff87dd4888ae76",
       "status" : "passed",
       "time" : {
-        "start" : 1657011068112,
-        "stop" : 1657011068146,
-        "duration" : 34
+        "start" : 1658384017988,
+        "stop" : 1658384018020,
+        "duration" : 32
       }
     } ]
   },
   "ca26316ba3b4ab10ee6cb083e23849a8" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e7fe06e82d118685",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert '参数错误' == '成功'\n  - 成功\n  + 参数错误",
+      "uid" : "97985745af94e6fc",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
       "time" : {
-        "start" : 1658285429489,
-        "stop" : 1658285429795,
-        "duration" : 306
+        "start" : 1658387168404,
+        "stop" : 1658387168404,
+        "duration" : 0
       }
     } ]
   },
   "0a5ff1e0a016ef0f7d74a12dcedd0917" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "59ed5acddb5b42c3",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert '参数错误' == '成功'\n  - 成功\n  + 参数错误",
+      "uid" : "eb9a1499bbfacdec",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
       "time" : {
-        "start" : 1658285430219,
-        "stop" : 1658285430537,
-        "duration" : 318
+        "start" : 1658387168418,
+        "stop" : 1658387168418,
+        "duration" : 0
       }
     } ]
   },
@@ -224,12 +225,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "600b1453d75d5c1",
+      "uid" : "5752d7516ba348b6",
       "status" : "skipped",
       "statusDetails" : "Skipped: 跳过",
       "time" : {
-        "start" : 1658285432525,
-        "stop" : 1658285432525,
+        "start" : 1658387169182,
+        "stop" : 1658387169182,
         "duration" : 0
       }
     } ]
@@ -244,12 +245,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "da430652c0740b22",
+      "uid" : "3c56557a1e95350c",
       "status" : "passed",
       "time" : {
         "start" : 1658222204659,
         "stop" : 1658222204659,
         "duration" : 0
+      }
+    } ]
+  },
+  "bad2a855617f4e6f8b5164eb8c60b2bd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53e6776b5cdef1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658384017961,
+        "stop" : 1658384017979,
+        "duration" : 18
       }
     } ]
   },
@@ -263,7 +283,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "48861f2c341e7f34",
+      "uid" : "1e22b29516388601",
       "status" : "passed",
       "time" : {
         "start" : 1657182484653,
@@ -282,32 +302,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8ac2446a00e986ff",
+      "uid" : "1ad0a83208e084ee",
       "status" : "passed",
       "time" : {
-        "start" : 1657011067673,
-        "stop" : 1657011068107,
-        "duration" : 434
+        "start" : 1658384017672,
+        "stop" : 1658384017955,
+        "duration" : 283
       }
     } ]
   },
   "22cacf3c047563084983592dbfbcf910" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
+      "broken" : 1,
+      "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8ee2d17ebd68140b",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: 跳过确认委托协议",
+      "uid" : "940a362ce7bd67c2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: list indices must be integers or slices, not str",
       "time" : {
-        "start" : 1658285432530,
-        "stop" : 1658285432530,
-        "duration" : 0
+        "start" : 1658387168463,
+        "stop" : 1658387168953,
+        "duration" : 490
       }
     } ]
   },
@@ -321,7 +341,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b7074d8ad86ffe2e",
+      "uid" : "434d2a73223e1a7a",
       "status" : "skipped",
       "statusDetails" : "Skipped: 跳过编辑",
       "time" : {
@@ -341,7 +361,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e1ee7f2791df7e1d",
+      "uid" : "8430eed4f50b8a22",
       "status" : "skipped",
       "statusDetails" : "Skipped: 跳过提交审核",
       "time" : {
@@ -353,21 +373,21 @@
   },
   "91e36fd54dbb0a818dbc7518ef7ad1ee" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "28e45b4acebc8efc",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert '参数错误' == '成功'\n  - 成功\n  + 参数错误",
+      "uid" : "6743fc9660660a73",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
       "time" : {
-        "start" : 1658285430563,
-        "stop" : 1658285430900,
-        "duration" : 337
+        "start" : 1658387168436,
+        "stop" : 1658387168436,
+        "duration" : 0
       }
     } ]
   },
@@ -381,7 +401,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fe3b5ba4b762c005",
+      "uid" : "97a4fd90f7863b86",
       "status" : "skipped",
       "statusDetails" : "Skipped: 跳过新增",
       "time" : {
@@ -401,11 +421,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fc0896425649f321",
+      "uid" : "5a0efa3746d3de04",
       "status" : "passed",
       "time" : {
-        "start" : 1658285432536,
-        "stop" : 1658285432536,
+        "start" : 1658387169190,
+        "stop" : 1658387169190,
         "duration" : 0
       }
     } ]
@@ -420,32 +440,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d47530b5d75b24e",
+      "uid" : "c1fc70b7ce5bc782",
       "status" : "passed",
       "time" : {
-        "start" : 1658285432547,
-        "stop" : 1658285432547,
+        "start" : 1658387169199,
+        "stop" : 1658387169199,
         "duration" : 0
       }
     } ]
   },
   "fe0fe6b9c7d982464df8b08f05560211" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a9feb41c3ae72941",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert '参数错误' == '成功'\n  - 成功\n  + 参数错误",
+      "uid" : "4492e0cffee7b177",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
       "time" : {
-        "start" : 1658285428694,
-        "stop" : 1658285429306,
-        "duration" : 612
+        "start" : 1658387168396,
+        "stop" : 1658387168396,
+        "duration" : 0
       }
     } ]
   },
@@ -459,7 +479,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9845751d11f8098a",
+      "uid" : "e26a540be9c1d13a",
       "status" : "skipped",
       "statusDetails" : "Skipped: 跳过审核",
       "time" : {

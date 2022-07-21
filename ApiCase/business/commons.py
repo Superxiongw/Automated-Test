@@ -1,10 +1,13 @@
 # -*- coding: utf-8 -*-
-import requests
+import requests,pytest
 from ApiCase.common.logger import logger
 from ApiCase.common.httpclient import HttpClient
 from ApiCase.common.yaml_util import YamlUtil
 
+
+
 # 获取Token----------------公共方法
+@pytest.fixture(scope="session",autouse=True)
 def get_token():
     Token = YamlUtil().read_extract_yaml('Token')
     return Token

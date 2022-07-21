@@ -1,155 +1,15 @@
 [ {
-  "uid" : "48861f2c341e7f34",
-  "name" : "查询物料生产商信息",
-  "time" : {
-    "start" : 1657182484653,
-    "stop" : 1657182485349,
-    "duration" : 696
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d2d87def994af09",
-  "name" : "test_CreateAgreement[udata6]",
-  "time" : {
-    "start" : 1658285431850,
-    "stop" : 1658285432184,
-    "duration" : 334
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "6e94b3a4edfb0fee",
-  "name" : "test_CreateAgreement[udata7]",
-  "time" : {
-    "start" : 1658285432199,
-    "stop" : 1658285432518,
-    "duration" : 319
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fe3b5ba4b762c005",
-  "name" : "创建物料生产商信息",
-  "time" : {
-    "start" : 1657182485364,
-    "stop" : 1657182485364,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "critical"
-}, {
-  "uid" : "600b1453d75d5c1",
+  "uid" : "5752d7516ba348b6",
   "name" : "test_GetAgreementList[udata0]",
   "time" : {
-    "start" : 1658285432525,
-    "stop" : 1658285432525,
+    "start" : 1658387169182,
+    "stop" : 1658387169182,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "d47530b5d75b24e",
-  "name" : "test_RepairAgreement",
-  "time" : {
-    "start" : 1658285432547,
-    "stop" : 1658285432547,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ad1136a4f0990d38",
-  "name" : "test_userinfo[udata0]",
-  "time" : {
-    "start" : 1657011068112,
-    "stop" : 1657011068146,
-    "duration" : 34
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "74c3b1c97c905466",
-  "name" : "test_StopAgreement",
-  "time" : {
-    "start" : 1658285432540,
-    "stop" : 1658285432541,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a6ff4c8554a62679",
-  "name" : "test_CreateMaterial[udata0]",
-  "time" : {
-    "start" : 1658124716989,
-    "stop" : 1658124716989,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "fc0896425649f321",
-  "name" : "test_ModifyAgreement",
-  "time" : {
-    "start" : 1658285432536,
-    "stop" : 1658285432536,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "da007a70dc4db2b4",
-  "name" : "test_CreateAgreement[udata2]",
-  "time" : {
-    "start" : 1658285429833,
-    "stop" : 1658285430199,
-    "duration" : 366
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "9845751d11f8098a",
-  "name" : "test_RatifyFactory[udata0]",
-  "time" : {
-    "start" : 1657182485391,
-    "stop" : 1657182485391,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "a9feb41c3ae72941",
-  "name" : "test_CreateAgreement[udata0]",
-  "time" : {
-    "start" : 1658285428694,
-    "stop" : 1658285429306,
-    "duration" : 612
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "8ac2446a00e986ff",
-  "name" : "test_Login[udata0]",
-  "time" : {
-    "start" : 1657011067673,
-    "stop" : 1657011068107,
-    "duration" : 434
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e1ee7f2791df7e1d",
-  "name" : "test_ApplyFactory[udata0]",
-  "time" : {
-    "start" : 1657182485387,
-    "stop" : 1657182485387,
-    "duration" : 0
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "b7074d8ad86ffe2e",
+  "uid" : "434d2a73223e1a7a",
   "name" : "编辑物料生产商信息",
   "time" : {
     "start" : 1657182485384,
@@ -159,37 +19,87 @@
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "e7fe06e82d118685",
+  "uid" : "4492e0cffee7b177",
+  "name" : "test_CreateAgreement[udata0]",
+  "time" : {
+    "start" : 1658387168396,
+    "stop" : 1658387168396,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "97985745af94e6fc",
   "name" : "test_CreateAgreement[udata1]",
   "time" : {
-    "start" : 1658285429489,
-    "stop" : 1658285429795,
-    "duration" : 306
+    "start" : 1658387168404,
+    "stop" : 1658387168404,
+    "duration" : 0
   },
-  "status" : "failed",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "59ed5acddb5b42c3",
-  "name" : "test_CreateAgreement[udata3]",
+  "uid" : "55969dd19843805a",
+  "name" : "test_CreateMaterial[udata0]",
   "time" : {
-    "start" : 1658285430219,
-    "stop" : 1658285430537,
-    "duration" : 318
+    "start" : 1658124716989,
+    "stop" : 1658124716989,
+    "duration" : 0
   },
-  "status" : "failed",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "de21d784462c6f1c",
-  "name" : "test_ModifyMaterial[udata0]",
+  "uid" : "97a4fd90f7863b86",
+  "name" : "创建物料生产商信息",
   "time" : {
-    "start" : 1658124716999,
-    "stop" : 1658124717614,
-    "duration" : 615
+    "start" : 1657182485364,
+    "stop" : 1657182485364,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "critical"
+}, {
+  "uid" : "c1fc70b7ce5bc782",
+  "name" : "test_RepairAgreement",
+  "time" : {
+    "start" : 1658387169199,
+    "stop" : 1658387169199,
+    "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "da430652c0740b22",
+  "uid" : "53e6776b5cdef1a",
+  "name" : "test_Login[udata1]",
+  "time" : {
+    "start" : 1658384017961,
+    "stop" : 1658384017979,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55ff87dd4888ae76",
+  "name" : "test_userinfo[udata0]",
+  "time" : {
+    "start" : 1658384017988,
+    "stop" : 1658384018020,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a0efa3746d3de04",
+  "name" : "test_ModifyAgreement",
+  "time" : {
+    "start" : 1658387169190,
+    "stop" : 1658387169190,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c56557a1e95350c",
   "name" : "test_ConfirmAgreement",
   "time" : {
     "start" : 1658222204659,
@@ -199,17 +109,97 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6438161748d1ecdf",
-  "name" : "test_CreateAgreement[udata5]",
+  "uid" : "e26a540be9c1d13a",
+  "name" : "test_RatifyFactory[udata0]",
   "time" : {
-    "start" : 1658285430932,
-    "stop" : 1658285431818,
-    "duration" : 886
+    "start" : 1657182485391,
+    "stop" : 1657182485391,
+    "duration" : 0
   },
-  "status" : "failed",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "8b6c73017c21ffd",
+  "uid" : "3809fd189520850",
+  "name" : "test_CreateAgreement[udata6]",
+  "time" : {
+    "start" : 1658387168450,
+    "stop" : 1658387168450,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1ad0a83208e084ee",
+  "name" : "test_Login[udata0]",
+  "time" : {
+    "start" : 1658384017672,
+    "stop" : 1658384017955,
+    "duration" : 283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "940a362ce7bd67c2",
+  "name" : "test_ConfirmAgreement[udata0]",
+  "time" : {
+    "start" : 1658387168463,
+    "stop" : 1658387168953,
+    "duration" : 490
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cc2ee83e05f73a68",
+  "name" : "test_CreateAgreement[udata5]",
+  "time" : {
+    "start" : 1658387168443,
+    "stop" : 1658387168443,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6c87974bff1f315b",
+  "name" : "test_ModifyMaterial[udata0]",
+  "time" : {
+    "start" : 1658124716999,
+    "stop" : 1658124717614,
+    "duration" : 615
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb9a1499bbfacdec",
+  "name" : "test_CreateAgreement[udata3]",
+  "time" : {
+    "start" : 1658387168418,
+    "stop" : 1658387168418,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7154790c407a183d",
+  "name" : "test_CreateAgreement[udata7]",
+  "time" : {
+    "start" : 1658387168454,
+    "stop" : 1658387168454,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8430eed4f50b8a22",
+  "name" : "test_ApplyFactory[udata0]",
+  "time" : {
+    "start" : 1657182485387,
+    "stop" : 1657182485387,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cbdd832269787cef",
   "name" : "test_GetMaterialList[udata0]",
   "time" : {
     "start" : 1658124716466,
@@ -219,21 +209,41 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "28e45b4acebc8efc",
-  "name" : "test_CreateAgreement[udata4]",
+  "uid" : "8614fb1ca8b698e1",
+  "name" : "test_CreateAgreement[udata2]",
   "time" : {
-    "start" : 1658285430563,
-    "stop" : 1658285430900,
-    "duration" : 337
+    "start" : 1658387168409,
+    "stop" : 1658387168409,
+    "duration" : 0
   },
-  "status" : "failed",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "8ee2d17ebd68140b",
-  "name" : "test_ConfirmAgreement[udata0]",
+  "uid" : "a900a48970c2d35a",
+  "name" : "test_StopAgreement",
   "time" : {
-    "start" : 1658285432530,
-    "stop" : 1658285432530,
+    "start" : 1658387169194,
+    "stop" : 1658387169194,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e22b29516388601",
+  "name" : "查询物料生产商信息",
+  "time" : {
+    "start" : 1657182484653,
+    "stop" : 1657182485349,
+    "duration" : 696
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6743fc9660660a73",
+  "name" : "test_CreateAgreement[udata4]",
+  "time" : {
+    "start" : 1658387168436,
+    "stop" : 1658387168436,
     "duration" : 0
   },
   "status" : "skipped",

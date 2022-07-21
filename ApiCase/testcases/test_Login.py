@@ -37,7 +37,7 @@ class TestCase:
         # print('登录用户Token：',TestCase.token)
         # print('登录用户UserId：',TestCase.UserId)
         # print('登录用户CompanyId：',TestCase.CompanyId)
-        YamlUtil().write_extract_yaml({'Token':res.json()['Body']['Token']})
+        YamlUtil().write_extract_yaml({'Token': res.json()['Body']['Token']})
         YamlUtil().write_extract_yaml({'UserId': res.json()['Body']['UserId']})
         YamlUtil().write_extract_yaml({'CompanyId': res.json()['Body']['CompanyId']})
 
