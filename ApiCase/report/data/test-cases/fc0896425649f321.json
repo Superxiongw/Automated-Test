@@ -1,0 +1,68 @@
+{
+  "uid" : "fc0896425649f321",
+  "name" : "test_ModifyAgreement",
+  "fullName" : "ApiCase.testcases.test_SystemCompany.TestCase#test_ModifyAgreement",
+  "historyId" : "029b15354682d678f60fa9d7804eaec9",
+  "time" : {
+    "start" : 1658285432536,
+    "stop" : 1658285432536,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "ApiCase.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_SystemCompany"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A7BU5D9"
+  }, {
+    "name" : "thread",
+    "value" : "11220-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ApiCase.testcases.test_SystemCompany"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c32d40adbf48e45f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658222204654,
+        "stop" : 1658222204654,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc0896425649f321.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,13 @@
+-
+  url: "https://mahtest.sendi.com/System_Company/GetAgreementList"
+  method: post
+  parmams_type: json
+  data:
+#    CompanyId: !include 'E:\Program Files\Sendi_Project\extract.yml' # 通过!include 实现调用不同yaml文件
+    CompanyId: &CompanyId 1499568155075416064
+    Identity: 1
+    LoginCompanyId: *CompanyId
+    LoginUserId: 1543185603062009856
+    PageIndex: 1
+    PageSize: 10
+    SearchKey:

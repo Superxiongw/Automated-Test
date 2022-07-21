@@ -1,0 +1,67 @@
+{
+  "uid" : "53859faf49b82be2",
+  "name" : "test_GetMaterialList[udata0]",
+  "fullName" : "ApiCase.testcases.test_BaseMaterial.TestCase#test_GetMaterialList",
+  "historyId" : "60f7913b99be86f5f76382d8de998e09",
+  "time" : {
+    "start" : 1657697451715,
+    "stop" : 1657697452075,
+    "duration" : 360
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Mah系统-物料信息管理模块"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ApiCase.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_BaseMaterial"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A7BU5D9"
+  }, {
+    "name" : "thread",
+    "value" : "6516-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ApiCase.testcases.test_BaseMaterial"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "udata",
+    "value" : "{'url': 'https://mahtest.sendi.com/Base_Material/GetMaterialList', 'method': 'post', 'parmams_type': 'json', 'data': {'CompanyId': 1499568155075416064, 'PageIndex': 1, 'PageSize': 10, 'SearchKey': None, 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "53859faf49b82be2.json",
+  "parameterValues" : [ "{'url': 'https://mahtest.sendi.com/Base_Material/GetMaterialList', 'method': 'post', 'parmams_type': 'json', 'data': {'CompanyId': 1499568155075416064, 'PageIndex': 1, 'PageSize': 10, 'SearchKey': None, 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+}

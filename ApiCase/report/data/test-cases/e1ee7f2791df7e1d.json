@@ -1,0 +1,105 @@
+{
+  "uid" : "e1ee7f2791df7e1d",
+  "name" : "test_ApplyFactory[udata0]",
+  "fullName" : "ApiCase.testcases.test_CreateFactory.TestCase#test_ApplyFactory",
+  "historyId" : "db65f40bf44a640da017bda935da00b2",
+  "time" : {
+    "start" : 1657182485387,
+    "stop" : 1657182485387,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 跳过提交审核",
+  "statusTrace" : "('E:\\\\Program Files\\\\Sendi_Project\\\\ApiCase\\\\testcases\\\\test_CreateFactory.py', 66, 'Skipped: 跳过提交审核')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "审核物料生产商信息"
+  }, {
+    "name" : "epic",
+    "value" : "MAH接口测试"
+  }, {
+    "name" : "feature",
+    "value" : "基础数据管理模块"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='跳过提交审核')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ApiCase.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_CreateFactory"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A7BU5D9"
+  }, {
+    "name" : "thread",
+    "value" : "16052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ApiCase.testcases.test_CreateFactory"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "udata",
+    "value" : "{'url': 'https://mahtest.sendi.com/Base_Factory/ApplyFactory', 'method': 'post', 'parmams_type': 'json', 'data': {'FactoryId': 1544271901776547840, 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4b9af778602b5b6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657164166862,
+        "stop" : 1657164167070,
+        "duration" : 208
+      }
+    }, {
+      "uid" : "98bf7d7dc953d205",
+      "status" : "passed",
+      "time" : {
+        "start" : 1657163887543,
+        "stop" : 1657163887761,
+        "duration" : 218
+      }
+    }, {
+      "uid" : "f7e5b38e3f4b95ba",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'parmams_typy'",
+      "time" : {
+        "start" : 1657163866058,
+        "stop" : 1657163866058,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=4)", "@pytest.mark.skip(reason='跳过提交审核')" ]
+  },
+  "source" : "e1ee7f2791df7e1d.json",
+  "parameterValues" : [ "{'url': 'https://mahtest.sendi.com/Base_Factory/ApplyFactory', 'method': 'post', 'parmams_type': 'json', 'data': {'FactoryId': 1544271901776547840, 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+}

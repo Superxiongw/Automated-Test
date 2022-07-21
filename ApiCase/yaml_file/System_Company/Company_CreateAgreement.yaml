@@ -1,0 +1,144 @@
+# 创建委托协议接口参数
+-
+  name: "产品id为空"
+  url: "https://mahtest.sendi.com/System_Company/CreateAgreement"
+  method: post
+  parmams_type: json
+  data:
+    ProductId:
+    TrusteeId: 1499568389096607744
+    AgreementNumber: xy220719
+    EffectTime: "2022-07-19"
+    ExpireTime: "2022-07-20"
+    Remark: "Test20220719"
+    AgreementFileList: [{"ResourceId": "1549313299668144128", "FileName":"委托协议文件Test.docx"}] # 委托协议文件集合
+    QualityFileList: [{"ResourceId": "1549313339488866304", "FileName":"质量协议文件Test.docx"}] # 质量协议文件集合
+    Identity: 1
+    LoginUserId: 1543185603062009856
+    LoginCompanyId: 1499568155075416064
+
+-
+  name: "受托企业id为空"
+  url: "https://mahtest.sendi.com/System_Company/CreateAgreement"
+  method: post
+  parmams_type: json
+  data:
+    ProductId: 1540267987485986816
+    TrusteeId:
+    AgreementNumber: xy220719
+    EffectTime: "2022-07-19"
+    ExpireTime: "2022-07-20"
+    Remark: "Test20220719"
+    AgreementFileList: [{"ResourceId": "1549313299668144128", "FileName":"委托协议文件Test.docx"}] # 委托协议文件集合
+    QualityFileList: [{"ResourceId": "1549313339488866304", "FileName":"质量协议文件Test.docx"}] # 质量协议文件集合
+    Identity: 1
+    LoginUserId: 1543185603062009856
+    LoginCompanyId: 1499568155075416064
+
+-
+  name: "协议编号为空"
+  url: "https://mahtest.sendi.com/System_Company/CreateAgreement"
+  method: post
+  parmams_type: json
+  data:
+    ProductId: 1540267987485986816
+    TrusteeId: 1499568389096607744
+    AgreementNumber:
+    EffectTime: "2022-07-19"
+    ExpireTime: "2022-07-20"
+    Remark: "Test20220719"
+    AgreementFileList: [{"ResourceId": "1549313299668144128", "FileName":"委托协议文件Test.docx"}] # 委托协议文件集合
+    QualityFileList: [{"ResourceId": "1549313339488866304", "FileName":"质量协议文件Test.docx"}] # 质量协议文件集合
+    Identity: 1
+    LoginUserId: 1543185603062009856
+    LoginCompanyId: 1499568155075416064
+
+-
+  name: "生效日期为空"
+  url: "https://mahtest.sendi.com/System_Company/CreateAgreement"
+  method: post
+  parmams_type: json
+  data:
+    ProductId: 1540267987485986816
+    TrusteeId: 1499568389096607744
+    AgreementNumber: xy220719
+    EffectTime: ""
+    ExpireTime: "2022-07-20"
+    Remark: "Test20220719"
+    AgreementFileList: [{"ResourceId": "1549313299668144128", "FileName":"委托协议文件Test.docx"}] # 委托协议文件集合
+    QualityFileList: [{"ResourceId": "1549313339488866304", "FileName":"质量协议文件Test.docx"}] # 质量协议文件集合
+    Identity: 1
+    LoginUserId: 1543185603062009856
+    LoginCompanyId: 1499568155075416064
+
+-
+  name: "失效日期为空"
+  url: "https://mahtest.sendi.com/System_Company/CreateAgreement"
+  method: post
+  parmams_type: json
+  data:
+    ProductId: 1540267987485986816
+    TrusteeId: 1499568389096607744
+    AgreementNumber: xy220719
+    EffectTime: "2022-07-19"
+    ExpireTime: ""
+    Remark: "Test20220719"
+    AgreementFileList: [{"ResourceId": "1549313299668144128", "FileName":"委托协议文件Test.docx"}] # 委托协议文件集合
+    QualityFileList: [{"ResourceId": "1549313339488866304", "FileName":"质量协议文件Test.docx"}] # 质量协议文件集合
+    Identity: 1
+    LoginUserId: 1543185603062009856
+    LoginCompanyId: 1499568155075416064
+
+-
+  name: "委托协议文件不得为空"
+  url: "https://mahtest.sendi.com/System_Company/CreateAgreement"
+  method: post
+  parmams_type: json
+  data:
+    ProductId: 1540267987485986816
+    TrusteeId: 1499568389096607744
+    AgreementNumber: xy220719
+    EffectTime: "2022-07-19"
+    ExpireTime: "2022-07-20"
+    Remark: "Test20220719"
+    AgreementFileList:  # 委托协议文件集合
+    QualityFileList: [{"ResourceId": "1549313339488866304", "FileName":"质量协议文件Test.docx"}] # 质量协议文件集合
+    Identity: 1
+    LoginUserId: 1543185603062009856
+    LoginCompanyId: 1499568155075416064
+
+-
+  name: "质量协议文件不得为空"
+  url: "https://mahtest.sendi.com/System_Company/CreateAgreement"
+  method: post
+  parmams_type: json
+  data:
+    ProductId: 1540267987485986816
+    TrusteeId: 1499568389096607744
+    AgreementNumber: xy220719
+    EffectTime: "2022-07-19"
+    ExpireTime: "2022-07-20"
+    Remark: "Test20220719"
+    AgreementFileList: [{"ResourceId": "1549313299668144128", "FileName":"委托协议文件Test.docx"}] # 委托协议文件集合
+    QualityFileList:  # 质量协议文件集合
+    Identity: 1
+    LoginUserId: 1543185603062009856
+    LoginCompanyId: 1499568155075416064
+
+-
+  name: "正常"
+  url: "https://mahtest.sendi.com/System_Company/CreateAgreement"
+  method: post
+  parmams_type: json
+  data:
+    ProductId: 1540267987485986816
+    TrusteeId: 1499568389096607744
+    AgreementNumber: xy220719
+    EffectTime: "2022-07-19"
+    ExpireTime: "2022-07-20"
+    Remark: "Test20220719"
+    AgreementFileList: [{"ResourceId": "1549313299668144128", "FileName":"委托协议文件Test.docx"}] # 委托协议文件集合
+    QualityFileList: [{"ResourceId": "1549313339488866304", "FileName":"质量协议文件Test.docx"}] # 质量协议文件集合
+    Identity: 1
+    LoginUserId: 1543185603062009856
+    LoginCompanyId: 1499568155075416064

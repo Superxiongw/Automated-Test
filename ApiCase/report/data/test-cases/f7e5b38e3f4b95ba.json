@@ -1,0 +1,75 @@
+{
+  "uid" : "f7e5b38e3f4b95ba",
+  "name" : "test_ApplyFactory[udata0]",
+  "fullName" : "ApiCase.testcases.test_CreateFactory.TestCase#test_ApplyFactory",
+  "historyId" : "db65f40bf44a640da017bda935da00b2",
+  "time" : {
+    "start" : 1657163866058,
+    "stop" : 1657163866058,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'parmams_typy'",
+  "statusTrace" : "self = <ApiCase.testcases.test_CreateFactory.TestCase object at 0x000001EC89646980>\nudata = {'data': {'FactoryId': 1544271901776547840, 'Identity': None, 'LoginCompanyId': 1499568155075416064, 'LoginUserId': 15...5603062009856}, 'method': 'post', 'parmams_type': 'json', 'url': 'https://mahtest.sendi.com/Base_Factory/ApplyFactory'}\n\n    @allure.story(\"审核物料生产商信息\")\n    @pytest.mark.run(order=4)\n    @pytest.mark.parametrize('udata', read_yaml('/Base_ApplyFactory.yaml'))\n    def test_ApplyFactory(self,udata):\n        url = udata['url']\n        headers = {'authorization': TestCase.Token}\n        data = udata['data']\n        res = HttpClient().send_request(method=udata['method'],url=url,headers=headers,data=data,\n>                                       param_type=udata['parmams_typy'],verify=False)\nE       KeyError: 'parmams_typy'\n\nApiCase\\testcases\\test_CreateFactory.py:74: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "基础数据管理模块"
+  }, {
+    "name" : "story",
+    "value" : "审核物料生产商信息"
+  }, {
+    "name" : "epic",
+    "value" : "MAH接口测试"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ApiCase.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_CreateFactory"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A7BU5D9"
+  }, {
+    "name" : "thread",
+    "value" : "15144-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ApiCase.testcases.test_CreateFactory"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "udata",
+    "value" : "{'url': 'https://mahtest.sendi.com/Base_Factory/ApplyFactory', 'method': 'post', 'parmams_type': 'json', 'data': {'FactoryId': 1544271901776547840, 'Identity': None, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=4)" ]
+  },
+  "source" : "f7e5b38e3f4b95ba.json",
+  "parameterValues" : [ "{'url': 'https://mahtest.sendi.com/Base_Factory/ApplyFactory', 'method': 'post', 'parmams_type': 'json', 'data': {'FactoryId': 1544271901776547840, 'Identity': None, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+}

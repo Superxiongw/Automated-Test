@@ -1,0 +1,106 @@
+{
+  "uid" : "6aadb5fa3d07799a",
+  "name" : "test_userinfo[udata0]",
+  "fullName" : "ApiCase.testcases.test_Login.TestCase#test_userinfo",
+  "historyId" : "2d63db7d716448ef77f4cb54a40e5bb5",
+  "time" : {
+    "start" : 1655794764312,
+    "stop" : 1655794764406,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1655794763995,
+      "stop" : 1655794763995,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1655794763996,
+      "stop" : 1655794763996,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCase::0",
+    "time" : {
+      "start" : 1655794764408,
+      "stop" : 1655794764408,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "ApiCase.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A7BU5D9"
+  }, {
+    "name" : "thread",
+    "value" : "9400-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ApiCase.testcases.test_Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "udata",
+    "value" : "{'name': '获取人员信息列表', 'url': 'https://mahtest.sendi.com/System_User/GetUserList', 'method': 'post', 'parmams_type': 'json'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6aadb5fa3d07799a.json",
+  "parameterValues" : [ "{'name': '获取人员信息列表', 'url': 'https://mahtest.sendi.com/System_User/GetUserList', 'method': 'post', 'parmams_type': 'json'}" ]
+}

@@ -1,0 +1,12 @@
+# 确认委托协议接口参数
+-
+  url: "https://mahtest.sendi.com/System_Company/ConfirmAgreement"
+  method: post
+  parmams_type: json
+  data:
+    AgreementId: 1549322331720126464 # 协议id
+    IsPassed: false
+    Opinion: 重新确认
+    Identity: 1
+    LoginUserId: 1543185603062009856
+    LoginCompanyId: 1499568155075416064
