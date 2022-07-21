@@ -2,4 +2,7 @@ pytest
 pytest-html
 pytest-ordering
 pytest-rerunfailures
-allure-pytestpi
+PyYAML
+requests
+urllib3
+xlrd
