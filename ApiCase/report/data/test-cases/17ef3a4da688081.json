@@ -1,0 +1,61 @@
+{
+  "uid" : "17ef3a4da688081",
+  "name" : "test_CreateFactory[udata0]",
+  "fullName" : "ApiCase.testcases.test_CreateFactory.TestCase#test_CreateFactory",
+  "historyId" : "4045a45f7ecf82245a276bd3010f5c99",
+  "time" : {
+    "start" : 1656929014802,
+    "stop" : 1656929015057,
+    "duration" : 255
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "ApiCase.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_CreateFactory"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A7BU5D9"
+  }, {
+    "name" : "thread",
+    "value" : "11948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ApiCase.testcases.test_CreateFactory"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "udata",
+    "value" : "{'name': '创建生产厂家', 'url': 'https://mahtest.sendi.com/Base_Factory/CreateFactory', 'method': 'post', 'parmams_type': 'json', 'data': {'FactoryName': '杭州某某厂家', 'FactoryNumber': '220620', 'SocialCreditCode': 'Sodium Chloride Injection', 'Address': '浙江杭州', 'LicenseNumber': 'xkz20220620', 'LicenseExpireTime': '2024-07-05', 'LicenseFileList': [{'ResourceId': '1543884701717106688', 'FileName': '测试用图片.png'}], 'DistributorIds': ['1540259818449801216'], 'Remark': 'test', 'Identity\"': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17ef3a4da688081.json",
+  "parameterValues" : [ "{'name': '创建生产厂家', 'url': 'https://mahtest.sendi.com/Base_Factory/CreateFactory', 'method': 'post', 'parmams_type': 'json', 'data': {'FactoryName': '杭州某某厂家', 'FactoryNumber': '220620', 'SocialCreditCode': 'Sodium Chloride Injection', 'Address': '浙江杭州', 'LicenseNumber': 'xkz20220620', 'LicenseExpireTime': '2024-07-05', 'LicenseFileList': [{'ResourceId': '1543884701717106688', 'FileName': '测试用图片.png'}], 'DistributorIds': ['1540259818449801216'], 'Remark': 'test', 'Identity\"': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+}

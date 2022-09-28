@@ -1,0 +1,274 @@
+{
+  "uid" : "940a362ce7bd67c2",
+  "name" : "test_ConfirmAgreement[udata0]",
+  "fullName" : "ApiCase.testcases.test_SystemCompany.TestCase#test_ConfirmAgreement",
+  "historyId" : "22cacf3c047563084983592dbfbcf910",
+  "time" : {
+    "start" : 1658387168463,
+    "stop" : 1658387168953,
+    "duration" : 490
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: list indices must be integers or slices, not str",
+  "statusTrace" : "self = <ApiCase.testcases.test_SystemCompany.TestCase object at 0x0000025E4F95C220>\nudata = {'data': {'AgreementId': '1549578221530517504', 'Identity': 2, 'IsPassed': False, 'LoginCompanyId': '1499568389096607744', ...}, 'method': 'post', 'parmams_type': 'json', 'url': 'https://mahtest.sendi.com/System_Company/ConfirmAgreement'}\n\n    @pytest.mark.run(order=3)\n    # @pytest.mark.skip(reason=\"跳过确认委托协议\")\n    @pytest.mark.parametrize('udata', read_yaml('/System_Company/Company_ConfirmAgreement.yaml'))\n    def test_ConfirmAgreement(self,udata):\n        url = udata['url']\n        herders = {\"authorization\": TestCase.Token1}\n        data = udata['data']\n        # 关闭https校验请求\n        requests.packages.urllib3.disable_warnings()\n        res = HttpClient().send_request(url=url, param_type=udata['parmams_type'], method=udata['method'], data=data,\n                                        headers=herders, verify=False)\n        logger.debug(f'确认委托协议信息：{res}')\n        print('-----------------------确认委托协议信息-----------------------')\n        print(res.json())\n        # assert res.status_code == 200\n        assert res.json()[\"Code\"] == 100\n>       res1 = TestCase().test_GetAgreementList(read_includeyaml('E:\\Program Files\\Sendi_Project\\ApiCase\\yaml_file\\System_Company\\Company_GetAgreementList.yaml','../System_Company'))\n\nApiCase\\testcases\\test_SystemCompany.py:63: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <ApiCase.testcases.test_SystemCompany.TestCase object at 0x0000025E4F95E1A0>\nudata = [{'data': {'CompanyId': 1499568155075416064, 'Identity': 1, 'LoginCompanyId': 1499568155075416064, 'LoginUserId': 1543...6, ...}, 'method': 'post', 'parmams_type': 'json', 'url': 'https://mahtest.sendi.com/System_Company/GetAgreementList'}]\n\n    @pytest.mark.run(order=10)\n    @pytest.mark.skip(reason=\"跳过\")\n    @pytest.mark.parametrize('udata',read_includeyaml(path+'\\Company_GetAgreementList.yaml','../System_Company'))\n    def test_GetAgreementList(self,udata):\n>       url = udata['url']\nE       TypeError: list indices must be integers or slices, not str\n\nApiCase\\testcases\\test_SystemCompany.py:21: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 21,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: list indices must be integers or slices, not str",
+    "statusTrace" : "self = <ApiCase.testcases.test_SystemCompany.TestCase object at 0x0000025E4F95C220>\nudata = {'data': {'AgreementId': '1549578221530517504', 'Identity': 2, 'IsPassed': False, 'LoginCompanyId': '1499568389096607744', ...}, 'method': 'post', 'parmams_type': 'json', 'url': 'https://mahtest.sendi.com/System_Company/ConfirmAgreement'}\n\n    @pytest.mark.run(order=3)\n    # @pytest.mark.skip(reason=\"跳过确认委托协议\")\n    @pytest.mark.parametrize('udata', read_yaml('/System_Company/Company_ConfirmAgreement.yaml'))\n    def test_ConfirmAgreement(self,udata):\n        url = udata['url']\n        herders = {\"authorization\": TestCase.Token1}\n        data = udata['data']\n        # 关闭https校验请求\n        requests.packages.urllib3.disable_warnings()\n        res = HttpClient().send_request(url=url, param_type=udata['parmams_type'], method=udata['method'], data=data,\n                                        headers=herders, verify=False)\n        logger.debug(f'确认委托协议信息：{res}')\n        print('-----------------------确认委托协议信息-----------------------')\n        print(res.json())\n        # assert res.status_code == 200\n        assert res.json()[\"Code\"] == 100\n>       res1 = TestCase().test_GetAgreementList(read_includeyaml('E:\\Program Files\\Sendi_Project\\ApiCase\\yaml_file\\System_Company\\Company_GetAgreementList.yaml','../System_Company'))\n\nApiCase\\testcases\\test_SystemCompany.py:63: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <ApiCase.testcases.test_SystemCompany.TestCase object at 0x0000025E4F95E1A0>\nudata = [{'data': {'CompanyId': 1499568155075416064, 'Identity': 1, 'LoginCompanyId': 1499568155075416064, 'LoginUserId': 1543...6, ...}, 'method': 'post', 'parmams_type': 'json', 'url': 'https://mahtest.sendi.com/System_Company/GetAgreementList'}]\n\n    @pytest.mark.run(order=10)\n    @pytest.mark.skip(reason=\"跳过\")\n    @pytest.mark.parametrize('udata',read_includeyaml(path+'\\Company_GetAgreementList.yaml','../System_Company'))\n    def test_GetAgreementList(self,udata):\n>       url = udata['url']\nE       TypeError: list indices must be integers or slices, not str\n\nApiCase\\testcases\\test_SystemCompany.py:21: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cc33f44569a7a0a5",
+      "name" : "log",
+      "source" : "cc33f44569a7a0a5.txt",
+      "type" : "text/plain",
+      "size" : 86
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ApiCase.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_SystemCompany"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A7BU5D9"
+  }, {
+    "name" : "thread",
+    "value" : "21676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ApiCase.testcases.test_SystemCompany"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "udata",
+    "value" : "{'url': 'https://mahtest.sendi.com/System_Company/ConfirmAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'AgreementId': '1549578221530517504', 'IsPassed': False, 'Opinion': '重新确认', 'Identity': 2, 'LoginUserId': '1540279897740677120', 'LoginCompanyId': '1499568389096607744'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "57c9b4e42a388b2d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: TestCase.test_GetAgreementList() missing 1 required positional argument: 'udata'",
+      "time" : {
+        "start" : 1658386998672,
+        "stop" : 1658386999094,
+        "duration" : 422
+      }
+    }, {
+      "uid" : "eb08c76720ce7224",
+      "status" : "broken",
+      "statusDetails" : "TypeError: read_includeyaml() missing 1 required positional argument: 'basePath'",
+      "time" : {
+        "start" : 1658386888124,
+        "stop" : 1658386888530,
+        "duration" : 406
+      }
+    }, {
+      "uid" : "a8c8144535634bd5",
+      "status" : "broken",
+      "statusDetails" : "TypeError: TestCase.test_GetAgreementList() missing 1 required positional argument: 'udata'",
+      "time" : {
+        "start" : 1658386804853,
+        "stop" : 1658386805236,
+        "duration" : 383
+      }
+    }, {
+      "uid" : "615fdc67937aecb8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: TestCase.test_GetAgreementList() missing 1 required positional argument: 'udata'",
+      "time" : {
+        "start" : 1658386701054,
+        "stop" : 1658386701447,
+        "duration" : 393
+      }
+    }, {
+      "uid" : "306deb8cfaea0feb",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'function' object has no attribute 'udata'",
+      "time" : {
+        "start" : 1658386624187,
+        "stop" : 1658386624645,
+        "duration" : 458
+      }
+    }, {
+      "uid" : "9465456355cc5f14",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'function' object has no attribute 'self'",
+      "time" : {
+        "start" : 1658386596376,
+        "stop" : 1658386596879,
+        "duration" : 503
+      }
+    }, {
+      "uid" : "ca5ac0ed43a1069b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: TestCase.test_GetAgreementList() missing 1 required positional argument: 'udata'",
+      "time" : {
+        "start" : 1658386480882,
+        "stop" : 1658386481367,
+        "duration" : 485
+      }
+    }, {
+      "uid" : "c362c9f79630539e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1658386327180,
+        "stop" : 1658386327610,
+        "duration" : 430
+      }
+    }, {
+      "uid" : "e20dbf6d31064b60",
+      "status" : "broken",
+      "statusDetails" : "TypeError: string indices must be integers",
+      "time" : {
+        "start" : 1658386120714,
+        "stop" : 1658386121260,
+        "duration" : 546
+      }
+    }, {
+      "uid" : "5404d7598bc4768",
+      "status" : "broken",
+      "statusDetails" : "TypeError: TestCase.test_GetAgreementList() missing 2 required positional arguments: 'self' and 'udata'",
+      "time" : {
+        "start" : 1658385854927,
+        "stop" : 1658385855327,
+        "duration" : 400
+      }
+    }, {
+      "uid" : "bdd60034636ad727",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658385540004,
+        "stop" : 1658385540489,
+        "duration" : 485
+      }
+    }, {
+      "uid" : "84fc9a7d48b04af2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658385456475,
+        "stop" : 1658385457275,
+        "duration" : 800
+      }
+    }, {
+      "uid" : "6d247dac275b8eef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658385345953,
+        "stop" : 1658385346468,
+        "duration" : 515
+      }
+    }, {
+      "uid" : "e5792bc9b7d9f6e5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 403 == 200\n +  where 403 = <Response [403]>.status_code",
+      "time" : {
+        "start" : 1658385215741,
+        "stop" : 1658385216284,
+        "duration" : 543
+      }
+    }, {
+      "uid" : "c8d7a6d784b32822",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 403 == 200\n +  where 403 = <Response [403]>.status_code",
+      "time" : {
+        "start" : 1658385096541,
+        "stop" : 1658385096969,
+        "duration" : 428
+      }
+    }, {
+      "uid" : "1a6c3991ae22ee71",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 403 == 200\n +  where 403 = <Response [403]>.status_code",
+      "time" : {
+        "start" : 1658385019024,
+        "stop" : 1658385019453,
+        "duration" : 429
+      }
+    }, {
+      "uid" : "9a49ab22872a4193",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658384687849,
+        "stop" : 1658384788025,
+        "duration" : 100176
+      }
+    }, {
+      "uid" : "ef047ce6fd09339f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658384226422,
+        "stop" : 1658384226780,
+        "duration" : 358
+      }
+    }, {
+      "uid" : "c099f7da5af4c0ba",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 403 == 200\n +  where 403 = <Response [403]>.status_code",
+      "time" : {
+        "start" : 1658382899450,
+        "stop" : 1658382900018,
+        "duration" : 568
+      }
+    }, {
+      "uid" : "3ef4253524e09a95",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过确认委托协议",
+      "time" : {
+        "start" : 1658382799312,
+        "stop" : 1658382799312,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "139e0966980f73fd",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过确认委托协议",
+      "time" : {
+        "start" : 1658285432530,
+        "stop" : 1658285432530,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "940a362ce7bd67c2.json",
+  "parameterValues" : [ "{'url': 'https://mahtest.sendi.com/System_Company/ConfirmAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'AgreementId': '1549578221530517504', 'IsPassed': False, 'Opinion': '重新确认', 'Identity': 2, 'LoginUserId': '1540279897740677120', 'LoginCompanyId': '1499568389096607744'}}" ]
+}
