@@ -1,0 +1,80 @@
+{
+  "uid" : "c2abd3327e624d02",
+  "name" : "test_GetAgreementList[udata0]",
+  "fullName" : "ApiCase.testcases.test_SystemCompany.TestCase#test_GetAgreementList",
+  "historyId" : "54097b079ceee35aa386d4440f98c12f",
+  "time" : {
+    "start" : 1658385540496,
+    "stop" : 1658385540911,
+    "duration" : 415
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5f0a7a35323beb69",
+      "name" : "log",
+      "source" : "5f0a7a35323beb69.txt",
+      "type" : "text/plain",
+      "size" : 86
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=10)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ApiCase.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_SystemCompany"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A7BU5D9"
+  }, {
+    "name" : "thread",
+    "value" : "14036-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ApiCase.testcases.test_SystemCompany"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "udata",
+    "value" : "{'url': 'https://mahtest.sendi.com/System_Company/GetAgreementList', 'method': 'post', 'parmams_type': 'json', 'data': {'CompanyId': 1499568155075416064, 'Identity': 1, 'LoginCompanyId': 1499568155075416064, 'LoginUserId': 1543185603062009856, 'PageIndex': 1, 'PageSize': 10, 'SearchKey': None}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=10)" ]
+  },
+  "source" : "c2abd3327e624d02.json",
+  "parameterValues" : [ "{'url': 'https://mahtest.sendi.com/System_Company/GetAgreementList', 'method': 'post', 'parmams_type': 'json', 'data': {'CompanyId': 1499568155075416064, 'Identity': 1, 'LoginCompanyId': 1499568155075416064, 'LoginUserId': 1543185603062009856, 'PageIndex': 1, 'PageSize': 10, 'SearchKey': None}}" ]
+}

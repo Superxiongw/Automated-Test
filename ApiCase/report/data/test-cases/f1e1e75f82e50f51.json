@@ -1,0 +1,78 @@
+{
+  "uid" : "f1e1e75f82e50f51",
+  "name" : "编辑物料生产商信息",
+  "fullName" : "ApiCase.testcases.test_CreateFactory.TestCase#test_ModifyFactory",
+  "historyId" : "ad1f2a7fce0af8966c2c6ca967e85a21",
+  "time" : {
+    "start" : 1657163866008,
+    "stop" : 1657163866008,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 跳过编辑",
+  "statusTrace" : "('E:\\\\Program Files\\\\Sendi_Project\\\\ApiCase\\\\testcases\\\\test_CreateFactory.py', 50, 'Skipped: 跳过编辑')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "基础数据管理模块"
+  }, {
+    "name" : "story",
+    "value" : "编辑物料生产商信息"
+  }, {
+    "name" : "epic",
+    "value" : "MAH接口测试"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='跳过编辑')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ApiCase.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_CreateFactory"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A7BU5D9"
+  }, {
+    "name" : "thread",
+    "value" : "15144-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ApiCase.testcases.test_CreateFactory"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "udata",
+    "value" : "{'url': 'https://mahtest.sendi.com/Base_Factory/ModifyFactory', 'method': 'post', 'parmams_type': 'json', 'data': {'FactoryId': '1544271901776547840', 'FactoryName': '杭州某某厂家0705', 'FactoryNumber': '220620', 'SocialCreditCode': 'Sodium Chloride Injection', 'Address': '浙江杭州', 'LicenseNumber': 'xkz20220620', 'LicenseExpireTime': '2024-07-05', 'LicenseFileList': [{'ResourceId': '1543884701717106688', 'FileName': '测试用图片.png'}], 'DistributorIds': ['1540259818449801216'], 'Remark': 'test0705', 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=3)", "@pytest.mark.skip(reason='跳过编辑')" ]
+  },
+  "source" : "f1e1e75f82e50f51.json",
+  "parameterValues" : [ "{'url': 'https://mahtest.sendi.com/Base_Factory/ModifyFactory', 'method': 'post', 'parmams_type': 'json', 'data': {'FactoryId': '1544271901776547840', 'FactoryName': '杭州某某厂家0705', 'FactoryNumber': '220620', 'SocialCreditCode': 'Sodium Chloride Injection', 'Address': '浙江杭州', 'LicenseNumber': 'xkz20220620', 'LicenseExpireTime': '2024-07-05', 'LicenseFileList': [{'ResourceId': '1543884701717106688', 'FileName': '测试用图片.png'}], 'DistributorIds': ['1540259818449801216'], 'Remark': 'test0705', 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+}

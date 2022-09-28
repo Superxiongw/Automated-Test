@@ -1,0 +1,1 @@
+DEBUG    cnodeweb:test_BaseMaterial.py:23 获取物料信息:<Response [200]>

@@ -1,0 +1,260 @@
+{
+  "uid" : "97985745af94e6fc",
+  "name" : "test_CreateAgreement[udata1]",
+  "fullName" : "ApiCase.testcases.test_SystemCompany.TestCase#test_CreateAgreement",
+  "historyId" : "ca26316ba3b4ab10ee6cb083e23849a8",
+  "time" : {
+    "start" : 1658387168404,
+    "stop" : 1658387168404,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 跳过新增委托协议",
+  "statusTrace" : "('E:\\\\Program Files\\\\Sendi_Project\\\\ApiCase\\\\testcases\\\\test_SystemCompany.py', 37, 'Skipped: 跳过新增委托协议')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 21,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='跳过新增委托协议')"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ApiCase.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_SystemCompany"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A7BU5D9"
+  }, {
+    "name" : "thread",
+    "value" : "21676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ApiCase.testcases.test_SystemCompany"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "udata",
+    "value" : "{'name': '受托企业id为空', 'url': 'https://mahtest.sendi.com/System_Company/CreateAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'ProductId': 1540267987485986816, 'TrusteeId': None, 'AgreementNumber': 'xy220719', 'EffectTime': '2022-07-19', 'ExpireTime': '2022-07-20', 'Remark': 'Test20220719', 'AgreementFileList': [{'ResourceId': '1549313299668144128', 'FileName': '委托协议文件Test.docx'}], 'QualityFileList': [{'ResourceId': '1549313339488866304', 'FileName': '质量协议文件Test.docx'}], 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "afda9b3b3ed0e27c",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658386998628,
+        "stop" : 1658386998628,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "62ddacc2b806e262",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658386888070,
+        "stop" : 1658386888070,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a229d5492a671778",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658386804789,
+        "stop" : 1658386804789,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "537bcff6343",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658386701006,
+        "stop" : 1658386701006,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e2cd9131a0f7cd68",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658386624114,
+        "stop" : 1658386624114,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1ab71406fe1688b9",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658386596327,
+        "stop" : 1658386596327,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fe43ea89f7a6fee3",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658386480829,
+        "stop" : 1658386480829,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8d84ca5b56df0097",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658386327127,
+        "stop" : 1658386327127,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c98c7db69034625a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658386120654,
+        "stop" : 1658386120654,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "50d335b1a8146e06",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658385854804,
+        "stop" : 1658385854804,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b20e60c0c7be230f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658385539956,
+        "stop" : 1658385539956,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f4bc0d342124639a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658385456395,
+        "stop" : 1658385456395,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a161778a1e998f84",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658385345871,
+        "stop" : 1658385345871,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7ec512cb4add4f3a",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658385215639,
+        "stop" : 1658385215639,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b5946bb83be9e3c5",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658385096417,
+        "stop" : 1658385096417,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "38db1ac82d34a7b3",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658385018973,
+        "stop" : 1658385018973,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a30dc12007c086a0",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658384687628,
+        "stop" : 1658384687628,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e44351f31bc52a4f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658384225740,
+        "stop" : 1658384225740,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c79889fed1b2e6e1",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658382899335,
+        "stop" : 1658382899335,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "23e5c5bf11c3001",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过新增委托协议",
+      "time" : {
+        "start" : 1658382799219,
+        "stop" : 1658382799219,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cca02f7f5de9033f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '参数错误' == '成功'\n  - 成功\n  + 参数错误",
+      "time" : {
+        "start" : 1658285429489,
+        "stop" : 1658285429795,
+        "duration" : 306
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='跳过新增委托协议')", "run(order=1)" ]
+  },
+  "source" : "97985745af94e6fc.json",
+  "parameterValues" : [ "{'name': '受托企业id为空', 'url': 'https://mahtest.sendi.com/System_Company/CreateAgreement', 'method': 'post', 'parmams_type': 'json', 'data': {'ProductId': 1540267987485986816, 'TrusteeId': None, 'AgreementNumber': 'xy220719', 'EffectTime': '2022-07-19', 'ExpireTime': '2022-07-20', 'Remark': 'Test20220719', 'AgreementFileList': [{'ResourceId': '1549313299668144128', 'FileName': '委托协议文件Test.docx'}], 'QualityFileList': [{'ResourceId': '1549313339488866304', 'FileName': '质量协议文件Test.docx'}], 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+}

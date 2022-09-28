@@ -1,0 +1,1 @@
+DEBUG    cnodeweb:test_SystemCompany.py:44 新增委托协议信息：<Response [200]>

@@ -1,0 +1,67 @@
+{
+  "uid" : "c18d1706056d99c2",
+  "name" : "test_CreateMaterial[udata0]",
+  "fullName" : "ApiCase.testcases.test_BaseMaterial.TestCase#test_CreateMaterial",
+  "historyId" : "4c57738efe09fd683dbd56ff35b5a89e",
+  "time" : {
+    "start" : 1657698182954,
+    "stop" : 1657698183297,
+    "duration" : 343
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Mah系统-物料信息管理模块"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "ApiCase.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_BaseMaterial"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A7BU5D9"
+  }, {
+    "name" : "thread",
+    "value" : "12388-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ApiCase.testcases.test_BaseMaterial"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "udata",
+    "value" : "{'url': 'https://mahtest.sendi.com/Base_Material/CreateMaterial', 'method': 'post', 'parmams_type': 'json', 'data': {'MaterialType': 3, 'MaterialName': '原辅（内包材）', 'MaterialNumber': 'F-20220713', 'MaterialDesc': '原辅料内包材（描述字段）', 'MaterialSpec': '3.6kg/袋*10箱', 'CalculateUnit': 'kg', 'FactoryId': 1544271901776547840, 'DistributorIds': ['1540260241571188736'], 'QualityStandard': '药典2022', 'Period': 3, 'PeriodUnit': 2, 'StorageConditions': 1499577307499728896, 'Remark': 'Test20220713（备注）', 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "c18d1706056d99c2.json",
+  "parameterValues" : [ "{'url': 'https://mahtest.sendi.com/Base_Material/CreateMaterial', 'method': 'post', 'parmams_type': 'json', 'data': {'MaterialType': 3, 'MaterialName': '原辅（内包材）', 'MaterialNumber': 'F-20220713', 'MaterialDesc': '原辅料内包材（描述字段）', 'MaterialSpec': '3.6kg/袋*10箱', 'CalculateUnit': 'kg', 'FactoryId': 1544271901776547840, 'DistributorIds': ['1540260241571188736'], 'QualityStandard': '药典2022', 'Period': 3, 'PeriodUnit': 2, 'StorageConditions': 1499577307499728896, 'Remark': 'Test20220713（备注）', 'Identity': 1, 'LoginUserId': 1543185603062009856, 'LoginCompanyId': 1499568155075416064}}" ]
+}

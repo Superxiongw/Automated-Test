@@ -1,0 +1,1 @@
+DEBUG    cnodeweb:test_SystemCompany.py:29 获取委托协议列表：<Response [200]>

@@ -1,0 +1,91 @@
+{
+  "uid" : "161ade36ab28b9ee",
+  "name" : "test_Login[udata0]",
+  "fullName" : "ApiCase.testcases.test_Login.TestCase#test_Login",
+  "historyId" : "eda0be7425e08a0ed924413b8659b734",
+  "time" : {
+    "start" : 1656923066737,
+    "stop" : 1656923067099,
+    "duration" : 362
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1656923066735,
+      "stop" : 1656923066736,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCase::0",
+    "time" : {
+      "start" : 1656923067121,
+      "stop" : 1656923067121,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "ApiCase.testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-A7BU5D9"
+  }, {
+    "name" : "thread",
+    "value" : "10152-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "ApiCase.testcases.test_Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "udata",
+    "value" : "{'name': '正常登录', 'url': 'https://mahtest.sendi.com/System_Guard/PasswordLogin', 'method': 'post', 'parmams_type': 'json', 'data': {'PhoneNumber': 13477724401, 'Password': 'www.sendizg.com', 'LoginType': 0}, 'resp': {'code': 100, 'message': '登录成功'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "161ade36ab28b9ee.json",
+  "parameterValues" : [ "{'name': '正常登录', 'url': 'https://mahtest.sendi.com/System_Guard/PasswordLogin', 'method': 'post', 'parmams_type': 'json', 'data': {'PhoneNumber': 13477724401, 'Password': 'www.sendizg.com', 'LoginType': 0}, 'resp': {'code': 100, 'message': '登录成功'}}" ]
+}
